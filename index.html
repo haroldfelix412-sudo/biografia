@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0b12">
+    <meta name="description" content="Una biografia personal entre paisajes nublados y gustos personales.">
+    
+
+
+    <title>Entre nubes y pixeles | Mi biografía</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="biografia.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#inicio" aria-label="Volver al inicio">
+            <span class="brand-mark">N</span>
+            <span>H-G BIOGRAFÍA</span>
+        </a>
+        <nav aria-label="Navegación principal">
+            <a href="#historia">Mi historia</a>
+            <a href="#gustos">Lo que me gusta</a>
+            <a href="#sonido">Mi soundtrack</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio" aria-labelledby="hero-title">
+            <img class="hero-image" src="assets/mi-paisaje.jpg.jpg" alt="El paisaje perfecto en un bosque nublado">
+            <div class="hero-shade"></div>
+            <div class="hero-content">
+                <p class="eyebrow"><span class="status-dot"></span> UN RINCÓN PERSONAL · LOS MOCHIS</p>
+                <h1 id="hero-title">Entre nubes<br>y <span>pixeles.</span></h1>
+                <p class="hero-copy">Una biografía personal entre paisajes nublados y gustos personales.</p>
+                <a class="primary-link" href="#historia">Conoce mi historia <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-caption"><span>25°47' N</span><span>Un día perfecto: nublado</span></div>
+            <span class="hero-index" aria-hidden="true">01 / 04</span>
+        </section>
+
+        <section class="story section-wrap" id="historia" aria-labelledby="story-title">
+            <div class="section-heading">
+                <p class="eyebrow">01 — DE DÓNDE VENGO</p>
+                <h2 id="story-title">Mi historia,<br><span>a mi manera.</span></h2>
+            </div>
+            <div class="story-copy">
+                <p class="lead">Nací en <strong>Los Mochis</strong>, una ciudad que forma parte de mi historia y de quien soy.</p>
+                <p>Actualmente estudio en la <strong>Prepa UAS</strong>. Me gusta encontrar calma en los paisajes grandes y hermosos; prefiero los cielos cubiertos y la inmensidad de la naturaleza antes que las flores.</p>
+                <p>Este espacio reúne algunas de las cosas que disfruto y que hacen que mi mundo se sienta mío.</p>
+                <div class="location-tag"><span aria-hidden="true">⌖</span> LOS MOCHIS, SINALOA <span class="tag-divider">/</span> PREPA UAS</div>
+            </div>
+        </section>
+
+        <section class="landscape feature-image" aria-label="Paisaje montañoso">
+            <img src="assets/mi-paisaje.jpg.jpg" alt="El paisaje perfecto en un bosque nublado">
+            <div class="image-note"><span class="note-line"></span> LUGARES QUE ME HACEN RESPIRAR</div>
+        </section>
+
+        <section class="interests section-wrap" id="gustos" aria-labelledby="interests-title">
+            <div class="section-heading">
+                <p class="eyebrow">02 — MI UNIVERSO</p>
+                <h2 id="interests-title">Cosas que<br><span>me acompañan.</span></h2>
+            </div>
+            <div class="interest-grid">
+                <article class="interest-card skate-card">
+                    <div class="interest-copy">
+                        <span class="card-number">01</span>
+                        <span class="card-icon" aria-hidden="true">↗</span>
+                        <h3>Skate</h3>
+                        <p>La tabla, el movimiento y salir a rodar.</p>
+                        <span class="card-label">EN MOVIMIENTO</span>
+                    </div>
+                    <img class="interest-gif" src="assets/rupert-gnar.gif" alt="GIF de skate" loading="lazy" decoding="async">
+                </article>
+                <article class="interest-card games-card">
+                    <div class="interest-copy">
+                        <span class="card-number">02</span>
+                        <span class="card-icon" aria-hidden="true">⌘</span>
+                        <h3>Videojuegos</h3>
+                        <p>Minecraft, Left 4 Dead 2 y CS:GO.</p>
+                        <span class="card-label">MODO JUEGO</span>
+                    </div>
+                    <img class="interest-gif" src="assets/looking-searching.gif" alt="GIF de videojuegos" loading="lazy" decoding="async">
+                </article>
+                <article class="interest-card anime-card">
+                    <div class="interest-copy">
+                        <span class="card-number">03</span>
+                        <span class="card-icon" aria-hidden="true">✳</span>
+                        <h3>Anime</h3>
+                        <p>Berserk (1997), Tokyo Ghoul, Attack on Titan, Elfen Lied y Another.</p>
+                        <span class="card-label">HISTORIAS QUE IMPACTAN</span>
+                    </div>
+                    <img class="interest-gif" src="assets/elfen-lied-bando.gif" alt="GIF de Elfen Lied" loading="lazy" decoding="async">
+                </article>
+            </div>
+        </section>
+
+        <section class="mood section-wrap" aria-labelledby="mood-title">
+            <div class="mood-copy">
+                <p class="eyebrow">03 — MI LADO TRANQUILO</p>
+                <h2 id="mood-title">Cielos grises.<br><span>La mente en paz.</span></h2>
+                <p>No necesito que todo esté soleado. A veces, un día nublado y un paisaje inmenso son justo lo que hace falta para bajar el ruido y respirar.</p>
+                <p class="peace-note"><span aria-hidden="true">✦</span> Un objetivo sencillo: conseguir la paz.</p>
+            </div>
+            <figure class="gif-frame">
+                <img src="assets/mi-gif.gif.gif" alt="aveces solo se necesita paz y tranquilidad">
+                <figcaption><span class="live-dot"></span> UN MOMENTO DE PAZ Y TRANQUILIDAD</figcaption>
+            </figure>
+        </section>
+
+        <section class="soundtrack" id="sonido" aria-labelledby="soundtrack-title">
+            <div class="soundtrack-inner">
+                <div>
+                    <p class="eyebrow">04 — LO QUE SUENA EN MIS AUDÍFONOS</p>
+                    <h2 id="soundtrack-title">Mi soundtrack.</h2>
+                    <p>Artistas que forman parte de mi rotación:</p>
+                </div>
+                <ul class="artist-list" aria-label="Artistas que escucho">
+                    <li>XXXTentacion</li>
+                    <li>Fazzini</li>
+                    <li>C.R.O</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand" href="#inicio"><span class="brand-mark">H-G</span><span>H-G BIOGRAFÍA</span></a>
+        <p>Hecho a mi manera, desde Los Mochis.</p>
+        <a class="back-top" href="#inicio">VOLVER ARRIBA ↑</a>
+    </footer>
+</body>
+</html>
